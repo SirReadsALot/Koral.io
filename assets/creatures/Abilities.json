@@ -1,0 +1,285 @@
+{
+    "CarpetChlanth": {
+        "name": "CarpetChlanth",
+        "tier": 9,
+        "speed": 105,
+        "health": 800,
+        "damage": 80,
+        "boosts": 3,
+        "evolutionXp": 2500,
+        "evolutions": [
+            "Moreinagi"
+        ],
+        "hitbox": {
+            "x": 200,
+            "y": 100
+        },
+        "nativeBiome": {
+            "water": true
+        },
+        "time": {
+            "water": 10
+        },
+        "canWalk": false,
+        "abilities": {
+            "active": [
+                "VortexComponent"
+            ],
+            "passive": []
+        }
+    },
+    "ClownSniffler": {
+        "name": "ClownSniffler",
+        "tier": 1,
+        "speed": 90,
+        "health": 100,
+        "damage": 20,
+        "boosts": 2,
+        "evolutionXp": 50,
+        "evolutions": [
+            "CoralMite"
+        ],
+        "hitbox": {
+            "x": 40,
+            "y": 50
+        },
+        "nativeBiome": {
+            "water": true
+        },
+        "time": {
+            "water": 60
+        },
+        "canWalk": false,
+        "abilities": {
+            "active": [],
+            "passive": [
+                "SpeedComponent"
+            ]
+        }
+    },
+    "CoralFatFish": {
+        "name": "CoralFatFish",
+        "tier": 8,
+        "speed": 100,
+        "health": 700,
+        "damage": 80,
+        "boosts": 3,
+        "evolutionXp": 1800,
+        "evolutions": [
+            "CarpetChlanth"
+        ],
+        "hitbox": {
+            "x": 130,
+            "y": 120
+        },
+        "nativeBiome": {
+            "water": true
+        },
+        "time": {
+            "water": 20
+        },
+        "canWalk": false,
+        "abilities": {
+            "active": [],
+            "passive": [
+                "PoisonComponent"
+            ]
+        }
+    },
+    "CoralMite": {
+        "name": "CoralMite",
+        "tier": 2,
+        "speed": 90,
+        "health": 150,
+        "damage": 25,
+        "boosts": 1,
+        "evolutionXp": 120,
+        "evolutions": [
+            "Nudiray"
+        ],
+        "hitbox": {
+            "x": 70,
+            "y": 70
+        },
+        "nativeBiome": {
+            "water": true
+        },
+        "time": {
+            "water": 40
+        },
+        "canWalk": false,
+        "abilities": {
+            "active": [],
+            "passive": []
+        }
+    },
+    "CoralRaider": {
+        "name": "CoralRaider",
+        "tier": 5,
+        "speed": 100,
+        "health": 350,
+        "damage": 35,
+        "boosts": 3,
+        "evolutionXp": 650,
+        "evolutions": [
+            "Sutorai"
+        ],
+        "hitbox": {
+            "x": 60,
+            "y": 70
+        },
+        "nativeBiome": {
+            "water": true
+        },
+        "time": {
+            "water": 20
+        },
+        "canWalk": false,
+        "abilities": {
+            "active": [],
+            "passive": []
+        }
+    },
+    "GrandeFanFan": {
+        "name": "GrandeFanFan",
+        "tier": 7,
+        "speed": 100,
+        "health": 500,
+        "damage": 60,
+        "boosts": 3,
+        "evolutionXp": 1400,
+        "evolutions": [
+            "CoralFatFish"
+        ],
+        "hitbox": {
+            "x": 100,
+            "y": 100
+        },
+        "nativeBiome": {
+            "water": true
+        },
+        "time": {
+            "water": 20
+        },
+        "canWalk": false,
+        "abilities": {
+            "active": [
+                "ChargeComponent"
+            ],
+            "passive": []
+        }
+    },
+    "Hornetaur": {
+        "name": "Hornetaur",
+        "tier": 4,
+        "speed": 95,
+        "health": 300,
+        "damage": 30,
+        "boosts": 3,
+        "evolutionXp": 400,
+        "evolutions": [
+            "CoralRaider"
+        ],
+        "hitbox": {
+            "x": 60,
+            "y": 110
+        },
+        "nativeBiome": {
+            "water": true
+        },
+        "time": {
+            "water": 40
+        },
+        "canWalk": false,
+        "abilities": {
+            "active": [],
+            "passive": [
+                "HideComponent"
+            ]
+        }
+    },
+    "Moreinagi": {
+        "name": "Moreinagi",
+        "tier": 10,
+        "speed": 100,
+        "health": 1000,
+        "damage": 120,
+        "boosts": 3,
+        "evolutions": [
+            "Moreinagi"
+        ],
+        "hitbox": {
+            "x": 90,
+            "y": 150
+        },
+        "nativeBiome": {
+            "water": true
+        },
+        "time": {
+            "water": 20
+        },
+        "canWalk": false,
+        "abilities": {
+            "active": [
+                "GrabComponent"
+            ],
+            "passive": []
+        }
+    },
+    "Nudiray": {
+        "name": "Nudiray",
+        "tier": 3,
+        "speed": 100,
+        "health": 250,
+        "damage": 20,
+        "boosts": 2,
+        "evolutionXp": 220,
+        "evolutions": [
+            "Hornetaur"
+        ],
+        "hitbox": {
+            "x": 50,
+            "y": 80
+        },
+        "nativeBiome": {
+            "water": true
+        },
+        "time": {
+            "water": 10
+        },
+        "canWalk": false,
+        "abilities": {
+            "active": [],
+            "passive": []
+        }
+    },
+    "Sutorai": {
+        "name": "Sutorai",
+        "tier": 6,
+        "speed": 100,
+        "health": 400,
+        "damage": 50,
+        "boosts": 3,
+        "evolutionXp": 1000,
+        "evolutions": [
+            "GrandeFanFan"
+        ],
+        "hitbox": {
+            "x": 40,
+            "y": 170
+        },
+        "nativeBiome": {
+            "water": true
+        },
+        "time": {
+            "water": 20
+        },
+        "canWalk": false,
+        "abilities": {
+            "active": [],
+            "passive": [
+                "HideComponent"
+            ]
+        }
+    }
+}

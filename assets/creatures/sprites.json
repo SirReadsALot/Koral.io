@@ -1,0 +1,12 @@
+[
+    { "name": "CoralFatFish", "x": 163, "y": 0, "width": 192, "height": 179 },
+    { "name": "CoralMite", "x": 163, "y": 180, "width": 110, "height": 95 },
+    { "name": "CoralRaider", "x": 423, "y": 304, "width": 140, "height": 141 },
+    { "name": "GrandeFanFan", "x": 356, "y": 0, "width": 227, "height": 189 },
+    { "name": "Hornetaur", "x": 356, "y": 304, "width": 66, "height": 141 },
+    { "name": "Moreinagi", "x": 0, "y": 0, "width": 162, "height": 283 },
+    { "name": "Nudiray", "x": 356, "y": 190, "width": 136, "height": 113 },
+    { "name": "Sutorai", "x": 228, "y": 284, "width": 111, "height": 189 },
+    { "name": "CarpetChlanth", "x": 0, "y": 284, "width": 227, "height": 189 },
+    { "name": "ClownSniffler", "x": 274, "y": 180, "width": 49, "height": 68 }
+]

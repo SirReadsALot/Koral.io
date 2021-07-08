@@ -1,0 +1,26 @@
+{
+    "name": "koral",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "node watch.js",
+        "build": "node build.js"
+    },
+    "author": "",
+    "license": "",
+    "devDependencies": {
+        "autoprefixer": "^10.2.6",
+        "postcss": "^8.3.5",
+        "tailwindcss": "^2.2.4"
+    },
+    "browserslist": [
+        "> 2%"
+    ],
+    "staticFiles": {
+        "staticPath": "assets"
+    },
+    "dependencies": {
+        "esbuild": "^0.12.15",
+        "fs-extra": "^10.0.0",
+        "pixi.js": "^6.0.4"
+    }
+}

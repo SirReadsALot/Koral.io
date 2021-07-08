@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "es6",
+        "lib": ["dom", "es2015", "es2016", "es2017", "es2018", "es2019", "es2020"],
+
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        // "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "esModuleInterop": true,
+        "pretty": true
+    }, 
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "old_source/**/*.ts"
+    ]
+}
